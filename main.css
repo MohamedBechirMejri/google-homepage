@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    color: #000;
+}
+header img, header svg {
+    height: auto;
+    width: 2.5em;
+    margin: 0.5em;
+    margin-right: 0;
+}
+img {
+    border-radius: 50%;
+}
