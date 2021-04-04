@@ -12,9 +12,8 @@ header {
 header img,
 header svg {
   height: auto;
-  width: 2.5em;
-  margin: 0.5em;
-  margin-right: 0;
+  width: 2em;
+  margin: 1em;
 }
 header img {
   border-radius: 50%;
