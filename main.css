@@ -52,7 +52,7 @@ input {
 
 button {
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  border-color: #dadce0;
   border-style: hidden;
   color: #3c4043;
   height: 3em;
@@ -63,6 +63,7 @@ button {
   text-align: center;
   justify-content: center;
   font-size: 1em;
+  border-width: 1px;
 }
 
 #offeredin {
