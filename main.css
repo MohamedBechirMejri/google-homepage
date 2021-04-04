@@ -93,6 +93,7 @@ footer a {
 }
 a {
   color: #70757a;
+  text-decoration: none;
 }
 
 #searchbox:hover {
@@ -100,4 +101,7 @@ a {
 }
 button:hover {
     border-style: solid;
+}
+a:hover {
+    text-decoration: underline;
 }
