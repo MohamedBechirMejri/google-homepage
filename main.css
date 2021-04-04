@@ -45,3 +45,15 @@ input {
     border-width: 0px;
     height: 100%;
 }
+
+button {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-style: hidden;
+    color: #3c4043;
+    height: 3em;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.25em;
+    width: 10em;
+}
