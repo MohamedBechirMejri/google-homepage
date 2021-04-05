@@ -1,5 +1,5 @@
 * {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
 }
 header {
@@ -12,11 +12,22 @@ header {
 header img,
 header svg {
   height: auto;
-  width: 2em;
-  margin: 1em;
+  width: 2.25em;
 }
 header img {
   border-radius: 50%;
+  margin: 1.25em 1.5em auto 1.75em;
+}
+header svg {
+  color: #70757a;
+  padding: 0;
+  width: 1.8em;
+  margin-left: 1em;
+  margin: 1.45em 0 auto 2.15em;
+}
+#gmail {
+  margin: 1.75em 0 auto 1em;
+  color: #3f3f3f;
 }
 
 main {
@@ -97,11 +108,11 @@ a {
 }
 
 #searchbox:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button:hover {
-    border-style: solid;
+  border-style: solid;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
