@@ -37,6 +37,9 @@ input {
   border-style: hidden;
   font-size: 16px;
   outline: 0;
+  border-right: solid;
+  border-width: 1px;
+  border-color: #dfe1e5;
 }
 #appsnuser {
   display: flex;
@@ -63,8 +66,8 @@ input {
 }
 input::-webkit-search-cancel-button {
   -webkit-appearance: none;
-  height: 1.60em;
-  width: 1.60em;
+  height: 1.6em;
+  width: 1.6em;
   border-radius: 50em;
   background: url(https://fonts.gstatic.com/s/i/materialiconsoutlined/clear/v10/24px.svg)
     no-repeat 50% 50%;
