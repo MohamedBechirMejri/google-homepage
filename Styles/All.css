@@ -13,11 +13,40 @@ header {
 #googlogo {
   height: 30px;
   width: 92px;
-  margin: 1.75em auto auto 1em;
+  margin: 1.75em 0 auto 1em;
 }
 #searchbox {
-  margin: 1.75em auto auto auto;  
+  margin: 1.75em auto auto auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-style: hidden;
+  border-radius: 50px;
+  border-width: 1px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 60%;
+  padding-left: 0;
+}
+input {
+    width: 90%;
+    margin-left: 0px;
+    border-style: hidden;
+}
+#appsnuser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1em;
+}
+#appsnuser svg {
+    width: 2em;
+    margin-right: 1em;
+}
+#appsnuser a {
+    background-color: hotpink;
+    color: whitesmoke;
+    padding: 0.5em 0.75em 0.5em 0.75em;
+    border-radius: 100%;
+    text-decoration: none;
 }
