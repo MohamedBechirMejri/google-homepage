@@ -36,6 +36,7 @@ input {
   /*margin-left: 0px;*/
   border-style: hidden;
   font-size: 16px;
+  outline: 0;
 }
 #appsnuser {
   display: flex;
@@ -59,4 +60,17 @@ input {
   align-items: center;
   justify-content: flex-start;
   width: fit-content;
+}
+input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1.60em;
+  width: 1.60em;
+  border-radius: 50em;
+  background: url(https://fonts.gstatic.com/s/i/materialiconsoutlined/clear/v10/24px.svg)
+    no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  pointer-events: all;
 }
