@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", "Roboto", sans-serif;
 }
 header {
   display: flex;
@@ -77,8 +77,22 @@ input::-webkit-search-cancel-button {
   opacity: 0.5;
   pointer-events: all;
 }
- /* All of the above is just the header :,) */
- /* Coding is Hard But I Love it */
- /* Can't wait to start programming */
- /* I hope I can see this and laugh after a couple of years */
- 
+/* All of the above is just the header :,) */
+/* Coding is Hard But I Love it */
+/* Can't wait to start programming */
+/* I hope I can see this and laugh after a couple of years */
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 42em;
+  margin-left: 15em;
+  font-size: small;
+}
+nav a {
+  font-size: small;
+  margin: 1em;
+  color: #696c71;
+  text-decoration: none;
+  font-weight: 500;
+}
