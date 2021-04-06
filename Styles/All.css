@@ -86,14 +86,14 @@ input::-webkit-search-cancel-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 42em;
-  margin-left: 15em;
+  width: 50em;
+  margin-left: 13.25em;
   font-size: small;
 }
 
 nav a {
   font-size: small;
-  margin: 0.5em;
+  margin: 0.75em;
   color: #696c71;
   text-decoration: none;
   font-weight: 400;
@@ -113,4 +113,9 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+hr {
+    height: 1px;
+    width: 100%;
+    margin: 0;
 }
