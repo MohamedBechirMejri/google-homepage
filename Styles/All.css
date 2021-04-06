@@ -85,6 +85,7 @@ input::-webkit-search-cancel-button {
 #nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 42em;
   margin-left: 15em;
   font-size: small;
@@ -92,12 +93,24 @@ input::-webkit-search-cancel-button {
 
 nav a {
   font-size: small;
-  margin: 1em;
+  margin: 0.5em;
   color: #696c71;
   text-decoration: none;
   font-weight: 400;
   display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 nav a svg {
   width: 1.5em;
+  margin-right: 0.15em;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
