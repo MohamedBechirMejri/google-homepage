@@ -89,10 +89,15 @@ input::-webkit-search-cancel-button {
   margin-left: 15em;
   font-size: small;
 }
+
 nav a {
   font-size: small;
   margin: 1em;
   color: #696c71;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
+  display: flex;
+}
+nav a svg {
+  width: 1.5em;
 }
