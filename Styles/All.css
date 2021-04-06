@@ -118,9 +118,15 @@ hr {
   height: 1px;
   width: 100%;
   margin: 0;
-  border: hidden ;
+  border: hidden;
   background-color: #ebebeb;
 }
 #current {
-    box-shadow: 0 20px 0px -3px #1a73e8;
+  height: 9px;
+  width: 3em;
+  box-shadow: 0 20px 0px -3px #1a73e8;
+  position: absolute;
+}
+#currenta {
+  color: #2177e8;
 }
