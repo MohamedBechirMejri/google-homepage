@@ -142,3 +142,8 @@ p {
 .result p {
   color: #646771;
 }
+#search-results {
+  display: flex;
+  margin-left: 180px;
+  width: 652px;
+}
