@@ -163,3 +163,7 @@ h2 {
 a {
   text-decoration: none;
 }
+
+.link {
+  color: #20212a !important;
+}
