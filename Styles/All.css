@@ -132,3 +132,13 @@ hr {
 }
 
 /* navbar above */
+
+/* Results */
+
+p {
+  color: #74797e;
+}
+
+.result p {
+  color: #646771;
+}
