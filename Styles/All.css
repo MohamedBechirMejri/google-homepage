@@ -139,6 +139,7 @@ p {
   color: #74797e;
   font-size: 14px;
   font-family: arial, sans-serif;
+  margin: 5px 0 5px 0;
 }
 
 .result p {
@@ -158,7 +159,8 @@ h2 {
   font-weight: lighter;
 }
 .result {
-  padding: 0.15em 0 0.25em 0;
+  padding: 0.75em 0 0.5em 0;
+  width: 37em;
 }
 a {
   text-decoration: none;
@@ -170,4 +172,7 @@ a {
 
 span {
     color: #5f6368;
+}
+#results {
+    margin-top: 1em;
 }
