@@ -176,3 +176,7 @@ span {
 #results {
   margin-top: 1em;
 }
+#related-searches {
+    margin: 0% auto auto auto;
+    font-weight: lighter;
+}
