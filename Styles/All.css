@@ -302,6 +302,14 @@ h3 {
     color: #ea4335;
 }
 
+#num {
+    color: #000;
+}
+
+.nums {
+    color: #000;
+}
+
 a:hover {
     text-decoration: underline;
 }
