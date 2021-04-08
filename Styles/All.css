@@ -200,4 +200,11 @@ li {
   margin: 5px;
   text-align: center;
   list-style-type: none;
+  
+}
+
+li p {
+    color: #20212a;
+    font-size: 16px;
+padding-top: 1em;
 }
