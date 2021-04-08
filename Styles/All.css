@@ -316,7 +316,6 @@ a:hover {
 
 /* footer */
 
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -360,9 +359,6 @@ footer {
     flex-shrink: 0;
 }
 
-
-
-
 /*   People Also Ask    */
 #feedback {
     display: flex;
@@ -374,14 +370,20 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 1.5em;
 }
-#peoplealsoask p
-{
-padding: 0.5em 0 ;
+
+#peoplealsoask p {
+    padding: 0.5em 0;
     font-size: 19px;
+    color: #202124;
 }
 
 #feedback p {
     padding-left: 10px;
     font-size: 12px;
+    color: #70757a;
+}
+#paatit {
+    margin: 0.5em 0;
 }
