@@ -127,6 +127,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin-top: -35px;
 }
 
 hr {
