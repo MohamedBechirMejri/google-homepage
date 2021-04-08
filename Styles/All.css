@@ -377,6 +377,9 @@ footer {
     padding: 0.5em 0;
     font-size: 19px;
     color: #202124;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #feedback p {
@@ -388,4 +391,8 @@ footer {
     margin: 0.5em 0;
     font-size: 21px;
     font-weight: lighter;
+}
+#peoplealsoask p svg {
+    width: 1.5em;
+    height: auto;
 }
