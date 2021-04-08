@@ -310,7 +310,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: -950;
+    bottom: -980;
     background: #f2f2f2;
     width: 100%;
     height: 3.5em;
@@ -320,7 +320,24 @@ footer a {
     margin: 1em;
     color: #70757a;
 }
+
 body {
     padding: 0;
     margin: 0;
+}
+
+/* don't know what this code means (yet) */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    flex-shrink: 0;
 }
