@@ -315,17 +315,18 @@ a:hover {
 }
 
 /* footer */
-/* please don't use dev tools while viewing the page :') */
+
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    bottom: -980;
+    /*position: absolute;*/
+    /*bottom: -980;*/
     background: #f2f2f2;
     width: 100%;
     height: 3.5em;
+    margin-top: 12em;
 }
 
 footer a {
@@ -366,4 +367,21 @@ footer {
 #feedback {
     display: flex;
     align-items: center;
+    height: 0;
+}
+
+#peoplealsoask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#peoplealsoask p
+{
+padding: 0.5em 0 ;
+    font-size: 19px;
+}
+
+#feedback p {
+    padding-left: 10px;
+    font-size: 12px;
 }
