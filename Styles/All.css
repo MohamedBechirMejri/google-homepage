@@ -307,6 +307,7 @@ a:hover {
 }
 
 /* footer */
+/* please don't use dev tools while viewing the page :') */
 
 footer {
     display: flex;
