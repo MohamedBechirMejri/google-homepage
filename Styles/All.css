@@ -323,11 +323,15 @@ footer {
 footer a {
     margin: 1em;
     color: #70757a;
+    font-size: 14px;
 }
 
 body {
     padding: 0;
     margin: 0;
+}
+#left-navlinks {
+    margin-left: 11.5em;
 }
 
 /* don't know what this code means (yet) */
