@@ -5,8 +5,9 @@
 header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     height: 10%;
+    margin: -2em 1em auto 1em;
 }
 
 #searchbox svg {
@@ -18,7 +19,7 @@ header {
 #googlogo {
     height: 30px;
     width: 92px;
-    margin: 1.75em 0 auto 1em;
+    /*margin: 1.75em 0 auto 1em;*/
 }
 
 #searchbox {
@@ -29,11 +30,11 @@ header {
     border-style: hidden;
     border-radius: 50px;
     border-width: 1px;
-    padding: 0 0.5em 0 1.5em;
+    padding: 0.25em 0.5em 0.25em 1.25em;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     width: 42em;
     margin-left: 3em;
-    height: 50%;
+    /*height: 50%;*/
 }
 
 input {
@@ -52,6 +53,7 @@ input {
     flex-direction: row;
     align-items: center;
     margin-right: 1em;
+    padding-left: 19em;
 }
 
 #appsnuser svg {
