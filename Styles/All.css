@@ -262,3 +262,48 @@ li p {
 
 /* Goooooooooogle*/
 
+#Goooooooooogle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 2em;
+    align-items: baseline;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#Goooooooooogle p {
+    font-size: 0.5em;
+}
+
+#g {
+    color: #4285f4;
+}
+
+#o {
+    color: #ea4335;
+}
+
+.o {
+    color: #fbbc05;
+}
+
+#l {
+    color: #34a853;
+}
+
+#e {
+    color: #ea4335;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
