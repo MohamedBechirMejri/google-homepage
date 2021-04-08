@@ -358,3 +358,12 @@ body {
 footer {
     flex-shrink: 0;
 }
+
+
+
+
+/*   People Also Ask    */
+#feedback {
+    display: flex;
+    align-items: center;
+}
