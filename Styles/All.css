@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     width: 90%;
     height: 10%;
-    margin: -2em 1em auto 1em;
+    margin: -2em 1em auto;
 }
 
 #searchbox svg {
@@ -64,7 +64,7 @@ input {
 #appsnuser a {
     background-color: rgb(255, 0, 128);
     color: rgb(255, 255, 255);
-    padding: 0.5em 0.75em 0.5em 0.75em;
+    padding: 0.5em 0.75em;
     border-radius: 100%;
     text-decoration: none;
 }
@@ -141,7 +141,7 @@ hr {
 #current {
     height: 9px;
     width: 3em;
-    box-shadow: 0 20px 0px -3px #1a73e8;
+    box-shadow: 0 20px 0 -3px #1a73e8;
     position: absolute;
 }
 
@@ -157,7 +157,7 @@ p {
     color: #74797e;
     font-size: 14px;
     font-family: arial, sans-serif;
-    margin: 5px 0 5px 0;
+    margin: 5px 0;
 }
 
 .result p {
@@ -180,7 +180,7 @@ p {
 }
 
 .result {
-    padding: 0.75em 0 0.5em 0;
+    padding: 0.75em 0 0.5em;
     width: 37em;
 }
 
@@ -201,7 +201,7 @@ span {
 }
 
 #related-searches {
-    margin: 0% auto auto auto;
+    margin: 0% auto auto;
     font-weight: lighter;
 }
 
@@ -236,7 +236,7 @@ li {
     border-radius: 100px;
     box-sizing: border-box;
     display: flex;
-    margin: 8px 8px;
+    margin: 8px;
     max-height: none;
     min-height: 48px;
     padding: 0 17px;
